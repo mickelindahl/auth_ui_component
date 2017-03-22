@@ -1,0 +1,49 @@
+<script id="auth-login-modal-template" type="text/x-handlebars-template">
+    <div class="modal m-auto"
+         id="auth-login-modal"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="login-modal-label"
+         aria-hidden="true">
+
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <!--Start as hidden, toggled in login-->
+                <div class="auth-login auth-login-pre hidden-xs-up">
+                    <div class="d-flex flex-column justify-content-center modal-body">
+                        <p class="text-center">Verifierar användaruppgifter...</p>
+                        <div class="d-flex justify-content-center">
+                            <div class="loader d-flex justify-content-center"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="auth-login auth-login-success hidden-xs-up">
+                    <div class="d-flex flex-column justify-content-center modal-body">
+
+                        <p class="text-center p-2 text-danger">
+
+                            Verifierad!
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="auth-login auth-login-fail hidden-xs-up">
+                    <div class="d-flex flex-column justify-content-center modal-body">
+                        <button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <!--<p class="text-center">Misslyckades med verifieringen...</p>-->
+                        <p class="text-center p-2 text-danger">
+
+                            Oops det gick så bra...<br> Kanske skrev du in användare-id/lösenord fel?
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>

@@ -1,0 +1,26 @@
+{
+  "name": "auth-ui-component",
+  "version": "1.0.0",
+  "description": "UI component for authentication with modal popup",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab.cmd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mickelindahl/auth_ui_component.git"
+  },
+  "keywords": [
+    "authentication",
+    "login",
+    "logout",
+    "ui",
+    "component"
+  ],
+  "author": "Mikael Lindahl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mickelindahl/auth_ui_component/issues"
+  },
+  "homepage": "https://github.com/mickelindahl/auth_ui_component#readme"
+}
