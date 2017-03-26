@@ -1,0 +1,29 @@
+<form id="auth-login" class="auth">
+    <div class="form-group">
+        <input id="login-user"
+               type="text"
+               name="user"
+               class="form-control"
+               placeholder="Användare"
+               aria-describedby="user-help">
+        <small id="user-help"
+               class="form-text text-muted">
+            Här skriver du in ditt Green Cargo användar-id :-)
+        </small>
+    </div>
+
+    <div class="form-group">
+        <input id="login-password"
+               type="password"
+               name="password"
+               class="form-control"
+               placeholder="Lösenord">
+    </div>
+
+    <button type="button"
+            class="btn btn-block btn-secondary m-auto toggle submit"
+            data-toggle="modal"
+            data-target="#auth-login-modal">
+        Logga in
+    </button>
+</form>

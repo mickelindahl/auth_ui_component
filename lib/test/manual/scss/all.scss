@@ -17,6 +17,7 @@
 // --------------------------------------------------------
 
 @import "../../../../node_modules/bootstrap/scss/variables";
+@import "./variables";
 
 // --------------------------------------------------------
 // Import required bootstrap sass files needed for this project.
@@ -69,12 +70,6 @@
 
 // Utility classes
 @import "../../../../node_modules/bootstrap/scss/utilities"; // Needed for navbar
-
-//Import datatables stuff
-@import "../../../../node_modules/datatables.net-bs4/css/dataTables.bootstrap.css";
-
-//Import jquery-ui stuff
-@import "../../../../node_modules/jquery-ui/themes/base/draggable.css";
 
 
 // Own stuff

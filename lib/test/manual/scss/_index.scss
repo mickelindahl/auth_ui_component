@@ -1,0 +1,31 @@
+.loader {
+  border: 8px solid #f3f3f3; /* Light grey */
+  border-top: 8px solid #1a1d1a; /* Blue */
+  border-radius: 50%;
+  width: $loader-size;
+  height: $loader-size;
+  animation: spin 2s linear infinite;
+  margin:auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#auth-login-modal .modal-dialog{
+
+  width:300px;
+
+}
+
+#auth-login-modal .modal-body{
+
+  margin-left:auto;
+  margin-right:auto;
+
+}
