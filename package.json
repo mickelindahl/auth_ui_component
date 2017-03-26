@@ -2,7 +2,7 @@
   "name": "auth-ui-component",
   "version": "1.0.0",
   "description": "UI component for authentication with modal popup",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "node_modules/.bin/lab -r lcov lib/test/index.js | ./node_modules/.bin/coveralls",
     "test-local": "./node_modules/.bin/lab -l lib/test/index.js",
