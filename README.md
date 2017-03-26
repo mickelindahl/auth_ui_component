@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mickelindahl/auth_ui_component.svg?branch=master)](https://travis-ci.org/mickelindahl/auth_ui_component)
+[![Coverage Status](https://coveralls.io/repos/github/mickelindahl/auth_ui_component/badge.svg?branch=master)](https://coveralls.io/github/mickelindahl/auth_ui_component?branch=master)
 # Auth ui component
 Library for creating a login form and submit login and logout to backend urls
 
