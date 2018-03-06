@@ -1,6 +1,6 @@
 {
   "name": "auth-ui-component",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "UI component for authentication with modal popup",
   "main": "lib/index.js",
   "scripts": {
